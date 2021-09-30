@@ -41,3 +41,21 @@ Protein Bioinformatics. In this work, we apply contrastive learning approaches t
 
 <a name="negative"></a>
 ### Hard-Negative Mining
+
+<a name="gettingstarted"></a>
+## Getting Started
+
+<a name="embeddings"></a>
+### Generating Embeddings
+
+<a name="ppi"></a>
+### Running the PPI Classifier
+
+<a name="issues"></a>
+## Known Issues
+
+<a name="conclusion"></a>
+## Future Work and References
+
+<a name="references"></a>
+## References
