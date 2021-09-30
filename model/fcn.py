@@ -28,9 +28,7 @@ class Net(nn.Module):
         x = F.relu(self.fc1(x))
         x = self.dropout1(F.relu(self.fc2(x)))
         x = F.relu(self.fc3(x))
-        # x = self.fc3(x)
-        # x = abs(x1 - x2)
-        # x = F.tanh(self.fcOut(x))
+        # x = F.tanh(self.fcOut(x)) # for tanh activation
         x = self.fcOut(x)
         return x
 
