@@ -1,3 +1,7 @@
+"""
+Optimize and Build Siamese network
+"""
+
 import torch
 import torch.backends.cudnn
 import torch.optim as optim
@@ -24,10 +28,6 @@ class Utilities():
         # Loss function
         # loss = ContrastiveLoss()
         loss = ContrastiveLoss(margin=0.8)
-        # loss = nn.MarginRankingLoss(reduction='sum')
-        # loss = nn.CrossEntropyLoss()
-        # out_act = nn.Sigmoid()
-        # loss = nn.BCELoss()
 
         # Optimizer
         optimizer = optim.Adam(net.parameters(), lr=learning_rate)
