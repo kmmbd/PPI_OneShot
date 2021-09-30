@@ -24,8 +24,19 @@ Protein Bioinformatics. In this work, we apply contrastive learning approaches t
 <a name="Architecture_Overview"></a>
 ## Architecture Overview
 
+To determine physical protein-protein interactions from sequence alone using Contrastive Learning techniques:
+
+* Only binary (physical) Protein-Protein Interactions (PPI) are considered.
+    * No interaction by association
+* Only sequence data is used.
+    * No evolutionary information was provided to the classifier.
+* Only contrastive learning techniques were used.
+    * We utilized both Siamese and Triplet networks with corresponding loss functions.
+
 <a name="datasets"></a>
 ## Datasets
+
+The [Agile Protein Interaction DataAnalyzer (APID)](https://www.re3data.org/repository/r3d100012339) was used in its Level-2 filter-level (ineractions confirmed by two or more physical experiments). This ensured the highest level of quality for the input data.
 
 <a name="theory"></a>
 ## Theoretical Background
