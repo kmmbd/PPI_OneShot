@@ -1,4 +1,4 @@
-<h1><b>Protein-Protein Interaction Prediction using Contrastive Learning</h1>
+<h1><b>Protein-Protein Interaction Prediction using Contrastive Learning</b></h1>
 
 # Abstract
 
