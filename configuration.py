@@ -1,3 +1,7 @@
+"""
+Configuration file containing file paths and models parameters
+"""
+
 import pathlib
 from datetime import datetime
 
