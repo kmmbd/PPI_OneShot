@@ -1,6 +1,6 @@
 <h1><b>Protein-Protein Interaction Prediction using Contrastive Learning</b></h1>
 
-# Abstract
+## Abstract
 
 Contrastive Learning methods have recently received interest due to their performance
 in representation learning tasks in the Computer Vision domain. However, there
@@ -13,7 +13,7 @@ Protein Bioinformatics. In this work, we apply contrastive learning approaches t
     * [SeqVec Embeddings](#seqvec)
     * [Contrastive Learning](#contrastive)
     * [Siamese Networks](#siamese)
-    * [Hard Negative Mining](#negative)
+    * [Hard-Negative Mining](#negative)
 * [Getting Started](#gettingstarted)
     * [Generating Embeddings](#embeddings)
     * [Running the PPI classifier](#ppi)
@@ -21,3 +21,23 @@ Protein Bioinformatics. In this work, we apply contrastive learning approaches t
 * [Future Work and Conclusion](#conclusion)
 * [References](#references)
 
+<a name="Architecture_Overview"></a>
+## Architecture Overview
+
+<a name="datasets"></a>
+## Datasets
+
+<a name="theory"></a>
+## Theoretical Background
+
+<a name="seqvec"></a>
+### SeqVec Embeddings
+
+<a name="contrastive"></a>
+### Contrastive Learning
+
+<a name="siamese"></a>
+### Siamese Networks
+
+<a name="negative"></a>
+### Hard-Negative Mining
