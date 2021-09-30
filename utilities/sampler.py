@@ -1,3 +1,7 @@
+"""
+Samples proteins for the Siamese/Twin Network
+"""
+
 import torch
 import json
 from dataset.loader import Dataset
